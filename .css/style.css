@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    background-color: #131B2E;
+}
+
+.interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1380px;
+    margin: 0px 40px;
+    padding: 30 4%;    
+
+}
+
+.button {
+    background-color: #FFB95F;
+    color: #472A00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #FFB95F;
+    opacity: 0.8;
+}
+
+header {
+    background-color: #020617;
+    color: #F1F5F9;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 0;
+    border-radius: 12px;    
+}
+
+header.interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav.menu ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 56px;
+}
+
+header nav.menu a {
+    color: #94A3B8;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav.menu a:hover {
+    color: #FFB95F;
+}
+
+/* Estilo Hero */
+
+section.hero {
+    padding-top: 50px;
+}
+
+.hero>div.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+    color: #F1F5F9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-text span {
+    color: #FFB95F;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    text-decoration: underline rgb(26, 115, 231);
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    color: #94A3B8;
+}
+
+.img-hero {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-hero img {
+    max-width: 180%;
+    border-radius: 12px;
+}
+
+.button-contato {
+    background-color: transparent;
+    color: #F1F5F9;
+    padding: 10px 20px;
+    border: 1px solid #F1F5F9;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-contato:hover {
+    background-color: #F1F5F9;
+    color: #020617;
+    opacity: 0.8;
+}

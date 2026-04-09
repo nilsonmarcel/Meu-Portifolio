@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="interface">
 
             <div class="logo">Nilson Ramos</div>
@@ -27,7 +27,7 @@
                     <li><a href="#portfolio">Portifólio</a></li>
                 </ul>
             </nav>
-            <div class="button"><a href="#contact">Contato</a></div>
+            <div><a class="button" href="#contact">Contato</a></div>
 
 
         </div>
@@ -64,8 +64,8 @@
 
 
                     <div class="btn-redes">
-                        <a href="#"><button><i class="bi bi-github"></i></button></a>
-                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/nilsonmarcel" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/nilson-ramos/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
                     </div>
                 </div>
                 <div class="img-sobre">
@@ -153,6 +153,57 @@
 
 
         </section>
+
+        <section class="contato" id="contact">
+            <div class="interface">
+                <div class="txt-contato">
+                    <h2>Vamos iniciar algo <br> <span>extraordinário?</span></h2>
+                    <p>Estou sempre interessado em ouvir novos projetos e ideias ambiciosas</p>
+                    <p><i class="bi bi-envelope-at-fill"></i>contato@gmail</p>
+                    <p><i class="bi bi-whatsapp"></i>(11) 99999-9999</p>
+                    <p><i class="bi bi-geo-alt"></i>São Paulo, BR (Remoto Global)</p>
+                </div>
+
+                <form action="#">
+                    <div class="tel-proj">
+                        <div class="campo">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" placeholder="Seu nome" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email" placeholder="E-mail">
+                        </div>
+                    </div>
+                    <div class="txt-label">
+                        <label for="tel">Telefone</label>
+                        <input type="tel" id="telefone" placeholder="Seu Telefone" required>
+
+                        <label for="mensagem">Mensagem</label>
+                    </div>
+
+                    <textarea id="mensagem" placeholder="Sua Mensagem"></textarea>
+
+                    <div class="btn-enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="interface">
+                <div class="txt-footer">
+                    <h3><a href="#home">Nilson Ramos</a></h3>
+                    <p>&copy; 2026 Digital Nilson Ramos. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-sociais">
+                    <a href="https://www.linkedin.com/in/nilson-ramos/" target="_blank">Linkedin</a>
+                    <a href="https://github.com/nilsonmarcel" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+        </footer>
 
     </main>
 
